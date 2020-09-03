@@ -1,0 +1,15 @@
+{
+	"Owner": "rti",
+	"Vertical": "dfa",
+	"Env": "stage",
+	"CostCenter": "2020022:222222",
+	"ApplicationName": "DD365",
+	"ApplicationId": "APM0003120",
+	"BU": "DealerSystems",
+	"DeptID": "955066",
+	"CoreID": "2",
+	"ProjectID": "NIS01034",
+	"ProjectName": "DealerDaily365",
+	"TerraformScriptVersion": "NA",
+	"CreatedBy": "S-RTID-BOT-P"
+}
