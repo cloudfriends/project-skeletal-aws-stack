@@ -12,9 +12,3 @@ variable "dynamo_replica_region" {
   default     = ""
   description = "Region for DynamoDB Replica Tables"
 }
-
-variable "table_def" {
-  type        = any
-  default     = {}
-  description = "DynamoDB Table Definition"
-}

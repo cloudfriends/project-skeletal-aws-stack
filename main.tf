@@ -24,6 +24,7 @@ module "dynamodb_table" {
   source       = "git::https://github.com/cloudfriends/tf-aws-dynamodb?ref=tags/1.0.0"
   aws_region   = var.aws_region
   table_prefix = local.dynamo_table_prefix
+  dynamo_replica_region = var.dynamo_replica_region
   table_def = jsondecode(templatefile("templates/dynamo_table_def.json.tpl", {
     dynamo_enable_replica = var.dynamo_enable_replica
   }))
